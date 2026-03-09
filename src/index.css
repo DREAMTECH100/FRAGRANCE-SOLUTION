@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background:#f8f9fb;
+  color:#111;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.hero-title{
+font-family:'Playfair Display', serif;
+letter-spacing:3px;
+}
+
+.hero-text{
+font-family:'Cormorant Garamond', serif;
+}
+
+.cart-summary{
+  margin-top:40px;
+  padding:20px;
+  border:1px solid #ddd;
+  border-radius:10px;
+  max-width:300px;
+}
+
+.checkout-btn{
+  width:100%;
+  padding:12px;
+  background:black;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
